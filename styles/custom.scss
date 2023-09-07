@@ -1,0 +1,29 @@
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.sidebar {
+  padding: 5vw 1rem;
+  border-right: 1px solid #606060af;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: inherit;
+  .nav {
+    .nav-link {
+      color: #ffffff;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 700;
+      background-color: transparent;
+      padding: 1rem 1rem;
+      border-radius: 0.4rem;
+      &:hover,
+      &:focus {
+        background-color: #606060af;
+      }
+    }
+  }
+}
